@@ -1,0 +1,55 @@
+/* Styles pour le formulaire de score */
+.score-form {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4facfd;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #1e87db;
+}
+
+#reset-button {
+  background-color: #ff6351;
+}
+
+#reset-button:hover {
+  background-color: #e63d2c;
+}
+
+#player1-button {
+  background-color: #6afd7b;
+}
+
+#player1-button:hover {
+  background-color: #46d15a;
+}
+
+#player2-button {
+  background-color: #ffa96f;
+}
+
+#player2-button:hover {
+  background-color: #e68a4e;
+}
