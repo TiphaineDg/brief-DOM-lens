@@ -1,0 +1,67 @@
+.health-bar {
+    width: 200px;
+    height: 20px;
+    background-color: #ddd;
+    margin-bottom: 10px;
+}
+
+.health {
+    height: 100%;
+    background-color: rgb(78, 214, 78);
+}
+
+#player-info, #monster-info {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#actions {
+    margin-top: 20px;
+}
+
+#combat-log {
+    margin-top: 20px;
+    width: 400px;
+    height: 200px;
+    overflow-y: scroll;
+    border: 1px solid #fffefe;
+    padding: 10px;
+}
+
+.player-log {
+    color: rgb(44, 44, 249);
+}
+
+.monster-log {
+    color: rgb(253, 54, 54);
+}
+
+button {
+    display: inline-block;
+    margin-right: 13px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#attack-btn {
+    background-color: #ffa96f;
+    color: white;
+}
+
+#special-attack-btn {
+    background-color: #4facfd;
+    color: white;
+}
+
+#heal-btn {
+    background-color: #6afd7b;
+    color: white;
+}
+
+#give-up-btn {
+    background-color: #ff6351;
+    color: white;
+}
